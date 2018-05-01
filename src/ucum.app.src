@@ -1,4 +1,4 @@
-{application, ucum.beam,
+{application, ucum,
  [{description, ""},
   {vsn, "0.0.1"},
   {registered, []},

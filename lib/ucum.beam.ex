@@ -1,4 +1,4 @@
-defmodule Ucum.beam do
+defmodule Ucum do
 
   @moduledoc """
 

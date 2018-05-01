@@ -1,8 +1,8 @@
-defmodule Ucum.beam.Mixfile do
+defmodule Ucum.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :ucum.beam,
+    [app: :ucum,
      version: "0.0.1",
      deps: deps(),
      description: description(),
