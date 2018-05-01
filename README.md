@@ -2,7 +2,7 @@
 
 # THE UNIFIED CODE FOR UNITS OF MEASURE on BEAM #
 
-Copyright (c) 2017 Ilya Khaprov <<i.khaprov@gmail.com>>.
+Copyright (c) 2018 Ilya Khaprov <<i.khaprov@gmail.com>>.
 
 __Version:__ 0.0.1
 

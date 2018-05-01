@@ -1,4 +1,4 @@
-@copyright 2017 Ilya Khaprov <<i.khaprov@gmail.com>>.
+@copyright 2018 Ilya Khaprov <<i.khaprov@gmail.com>>.
 @title THE UNIFIED CODE FOR UNITS OF MEASURE on BEAM
 @version 0.0.1
 
