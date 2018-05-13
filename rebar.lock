@@ -1,1 +1,4 @@
-[].
+[{<<"decimal">>,
+  {git,"https://github.com/tim/erlang-decimal.git",
+       {ref,"c5a0f6418f1daf7989c2669d4c851db7bf77f7b5"}},
+  0}].
