@@ -8,6 +8,9 @@
 %% API
 %% ===================================================================
 
+normalize(#term{}) ->
+  
+
 normalize(#symbol{prefix=Prefix,
                   unit=Unit,
                   exp=Exp}) ->
@@ -29,6 +32,15 @@ normalize(#symbol{prefix=Prefix,
       ucum_canonical:apply_exponent(Result, PValue, Exp)
   end.
 
+normalize_term_comp(#term{}, Div) ->
+  ;
+normalize_term_comp(#factor{}, Div) ->
+  ;
+normalize_term_comp(#symbol{}, Div) ->
+  
+
+
+
 %% ===================================================================
 %% Private functions
 %% ===================================================================
@@ -45,5 +57,5 @@ expand_defined_unit(#defined_unit{value = Value} = DU) ->
 
 catch_special(#defined_unit{is_special=true}) ->
     erlang:error("Special units are not implemented yet");
-catch_special(#defined_unit{unit=Unit}) ->
-    Unit.
+     catch_special(#defined_unit{unit=Unit}) ->
+         Unit.

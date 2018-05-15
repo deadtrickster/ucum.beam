@@ -1,8 +1,8 @@
 -record(decimal, {
-                   sign = 1 :: -1 | 1,
-                   coef :: pos_integer(),
-                   exp = 0 :: pos_integer()
-                  }).
+                  sign = 1 :: -1 | 1,
+                  coef :: pos_integer(),
+                  exp = 0 :: pos_integer()
+                 }).
 
 -record(prefix, {
                  code,
@@ -33,7 +33,7 @@
                  prefix = undefined,
                  unit,
                  exp = 1
-                 }).
+                }).
 
 -record(canonical_unit, {
                          base,
@@ -43,4 +43,14 @@
 -record(canonical, {
                     value = {0, 1, 0},
                     units
-                    }).
+                   }).
+
+-record(factor, {
+                 value
+                }).
+
+-record(term, {
+               comp,
+               op,
+               term
+              }).
